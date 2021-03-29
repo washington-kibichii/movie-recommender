@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const TMDB_KEY = "244996b9906075dd56d74f29707ae824";
+const TMDB_KEY = process.env.REACT_APP_API;
 let random = Math.floor((Math.random() + 0.1) * 11);
 
 const makeRequest = (path, params) =>
