@@ -1,10 +1,12 @@
 import React from "react";
 import Helmet from "react-helmet";
 import { Link } from "react-router-dom";
-
 //import styles and assets
 import styled from "styled-components";
 import { primary } from "../../components/Colors";
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-167867827-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const HomePresenter = () => {
   return (

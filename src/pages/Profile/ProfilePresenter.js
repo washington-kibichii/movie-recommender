@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 // import PropTypes from "prop-types";
+// eslint-disable-next-line
 import { Link } from "react-router-dom";
 import Helmet from "react-helmet";
 import _ from "lodash";
@@ -132,9 +133,9 @@ const ProfilePresenter = (props) => {
           <Header>
             <div className="sub">
               <h4>My Movie Profile</h4>
-              <Link to="/demoprofile">
+              {/* <Link to="/demoprofile">
                 <p className="link">See demo profile</p>
-              </Link>
+              </Link> */}
             </div>
           </Header>
           <Analyser
