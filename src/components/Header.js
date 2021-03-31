@@ -27,7 +27,7 @@ const Header = ({ location: { pathname }, liked, disliked }) => {
       <Container>
         <Logo>
           <Link to="/">
-            <Film width="24" height="24" color="#000" stroke="2" />
+            <Film width="24" height="24" color="#0e3354" stroke="2" />
           </Link>
         </Logo>
 
