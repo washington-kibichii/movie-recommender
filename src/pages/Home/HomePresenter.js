@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { primary } from "../../components/Colors";
 import ReactGA from 'react-ga';
+import { hotjar } from 'react-hotjar';
+ 
+hotjar.initialize(2326684, 6);
 ReactGA.initialize('UA-167867827-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
